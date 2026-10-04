@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fb">
+  <meta name="description" content="Portfolio de Mejec, étudiant en informatique à EIFI.">
+  <title>Mejec — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="brand" href="#accueil" aria-label="Mejec, accueil"><span class="brand-mark">M</span><span>mejec<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Ouvrir le menu"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#apropos">À propos</a><a href="#competences">Compétences</a><a href="#projets">Projets</a>
+        <a class="nav-contact" href="#contact">Me contacter <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <section class="hero container" id="accueil">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Étudiant en informatique · Kinshasa</p>
+        <h1>Je suis Mejec,<br>je construis <span>le web</span><br>pas à pas.</h1>
+        <p class="hero-description">Étudiant à EIFI, j’apprends à créer des expériences web simples, utiles et agréables à utiliser.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projets">Voir mes projets <span aria-hidden="true">↓</span></a><a class="text-link" href="#apropos">En savoir plus <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><span>Curieux aujourd’hui, meilleur demain.</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Carte de présentation de Mejec">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="visual-card"><div class="card-top"><span class="card-label">EN APPRENTISSAGE</span><span class="card-symbol">✳</span></div><div class="avatar">M<span>.</span></div><p class="card-name">Mejec</p><p class="card-role">Étudiant & futur développeur web</p><div class="card-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+        <span class="floating-chip chip-code">&lt;/&gt;</span><span class="floating-chip chip-star">✦</span><span class="floating-chip chip-plus">+</span>
+      </div>
+    </section>
+
+    <section class="intro-strip"><div class="container strip-inner"><span>EN CE MOMENT</span><p>J’apprends, je pratique, je partage.</p><span class="strip-arrow" aria-hidden="true">↘</span></div></section>
+
+    <section class="section container" id="apropos">
+      <div class="section-heading"><p class="eyebrow">01 / À PROPOS</p><h2>Un peu de moi<span>.</span></h2></div>
+      <div class="about-grid"><p class="about-lead">Je suis un étudiant en informatique qui aime comprendre <em>comment les choses fonctionnent</em> — puis essayer de les construire.</p><div class="about-detail"><p>Je poursuis mes études à l’École Informatique de Finance (EIFI). En ce moment, je développe mes bases en HTML, CSS, JavaScript et Git/GitHub, en créant de petits projets concrets.</p><p>Mon objectif : progresser régulièrement et transformer mes idées en pages web claires et accessibles.</p><a class="text-link" href="#contact">Parlons de ton idée <span aria-hidden="true">↗</span></a></div></div>
+      <div class="about-facts"><div><span class="fact-number">01</span><span>Étudiant à EIFI</span></div><div><span class="fact-number">02</span><span>Basé à Kinshasa</span></div><div><span class="fact-number">03</span><span>Toujours en apprentissage</span></div></div>
+    </section>
+
+    <section class="skills-section" id="competences"><div class="container section"><div class="section-heading"><p class="eyebrow">02 / COMPÉTENCES</p><h2>Mes outils du moment<span>.</span></h2><p class="section-subtitle">Je les découvre et je les pratique projet après projet.</p></div>
+      <div class="skills-grid"><article class="skill-card"><span class="skill-icon icon-html">5</span><h3>HTML</h3><p>Structurer le contenu d’une page web.</p><span class="skill-level"><i style="--level:65%"></i></span><small>En cours d’apprentissage</small></article><article class="skill-card"><span class="skill-icon icon-css">✳</span><h3>CSS</h3><p>Donner du style et rendre les pages adaptables.</p><span class="skill-level"><i style="--level:55%"></i></span><small>En cours d’apprentissage</small></article><article class="skill-card"><span class="skill-icon icon-js">JS</span><h3>JavaScript</h3><p>Ajouter des interactions utiles.</p><span class="skill-level"><i style="--level:30%"></i></span><small>Notions de base</small></article><article class="skill-card"><span class="skill-icon icon-git">⌘</span><h3>Git & GitHub</h3><p>Suivre mes changements et partager mon code.</p><span class="skill-level"><i style="--level:35%"></i></span><small>Notions de base</small></article></div>
+    </div></section>
+
+    <section class="section container projects-section" id="projets"><div class="section-heading projects-heading"><div><p class="eyebrow">03 / PROJETS</p><h2>Ce que je construis<span>.</span></h2></div><p class="section-subtitle">Chaque projet est une occasion d’apprendre quelque chose de nouveau.</p></div>
+      <div class="projects-grid"><article class="project-card project-featured"><div class="project-preview preview-birthday"><div class="preview-window"><div class="window-dots"><i></i><i></i><i></i></div><div class="birthday-content"><span>UNE PETITE SURPRISE</span><strong>Joyeux<br>anniversaire <b>♡</b></strong><div class="preview-button">Ouvrir le message →</div></div><span class="preview-spark spark-a">✦</span><span class="preview-spark spark-b">✳</span></div><span class="project-index">PROJET 01</span></div><div class="project-info"><div><p class="project-type">PAGE WEB PERSONNALISÉE</p><h3>Une surprise en ligne</h3></div><p>Une page d’anniversaire interactive avec un message personnalisé. <strong>Remplace ce texte par les détails de ton projet réel.</strong></p><div class="project-footer"><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="#contact" aria-label="En savoir plus sur Une surprise en ligne">↗</a></div></div></article>
+      <article class="project-card"><div class="project-preview preview-portfolio"><div class="mini-browser"><div class="mini-bar"><i></i><i></i><i></i></div><div class="mini-body"><span>PORTFOLIO · 2026</span><b>Mes idées,<br>en ligne.</b><div class="mini-lines"><i></i><i></i></div></div></div><span class="project-index">PROJET 02</span></div><div class="project-info"><div><p class="project-type">SITE PERSONNEL</p><h3>Mon portfolio</h3></div><p>La page que tu regardes : mon premier espace pour présenter mon parcours et mes projets.</p><div class="project-footer"><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="#accueil" aria-label="Revenir au début du portfolio">↗</a></div></div></article>
+      <article class="project-card project-placeholder"><div class="placeholder-art"><span>+</span><p>TA PROCHAINE<br>IDÉE COMMENCE ICI</p></div><div class="project-info"><div><p class="project-type">À VENIR</p><h3>Prochain projet</h3></div><p>Remplace cette carte quand tu auras une nouvelle création à partager.</p><div class="project-footer"><div class="tag-list"><span>À découvrir</span></div><span class="project-link muted">✦</span></div></div></article></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="container contact-inner"><div><p class="eyebrow">04 / CONTACT</p><h2>Une idée à partager ?<br><span>Écrivons la suite.</span></h2></div><div class="contact-side"><p>Tu as une question, une idée de projet ou simplement envie d’échanger ? N’hésite pas à m’écrire.</p><a class="button button-light" href="mailto:ton.adresse@email.com">M’écrire un email <span aria-hidden="true">↗</span></a><p class="contact-hint">À personnaliser : remplace ton.adresse@email.com par ton adresse.</p></div><span class="contact-decoration" aria-hidden="true">✳</span></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#accueil"><span class="brand-mark">M</span><span>mejec<span class="brand-dot">.</span></span></a><p>Fait avec curiosité à Kinshasa · <span id="year">2026</span></p><a class="back-top" href="#accueil">Retour en haut ↑</a></div></footer>
+</body>
+</html>
